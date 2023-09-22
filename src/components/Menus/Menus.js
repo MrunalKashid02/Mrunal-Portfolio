@@ -41,7 +41,7 @@ const Menus = ({toggle}) => {
               </div> */}
               <div className='nav-link'>
                 <FcContacts />
-                Contact me
+                Contact
               </div>
             </div>
           </div>

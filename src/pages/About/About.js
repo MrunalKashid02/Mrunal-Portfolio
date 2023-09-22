@@ -12,7 +12,7 @@ const About = () => {
                 <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content'>
                     <h1>About Me</h1>
                     <p>
-                    Web developer or IT engineer who works both front and
+                    Full Stack developer or IT engineer who works both front and
 back ends of website or application. Provide an end-to-end service, and can be involved in projects that
 involve databases and building user-facing websites
                     </p>
