@@ -42,4 +42,29 @@ input,textarea{
     margin-top: 5px;
     margin-top: 2px;
     width: 100%;
+    color: #138781;
+}
+input:focus, textarea:focus{
+    box-shadow: none !important;
+    outline: 1px solid #138781 !important;
+    outline-width: 0px;
+}
+
+/* mobile devices */
+@media (max-width:600px){
+    .contact{
+        margin:0;
+        padding:0;
+        margin-top: 30px;
+
+    }
+    .contact .card2{
+        margin: 0;
+
+    }
+    .contact .card2 h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

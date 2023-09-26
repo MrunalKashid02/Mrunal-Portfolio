@@ -1,7 +1,7 @@
 .project{
     
     margin: 50px 0px;
-    margin-left:140px ;
+    margin-left:100px ;
 }
 .project hr{
     color: #138781;
@@ -77,4 +77,19 @@
     border: 2px solid #138781;
     transition: all 0.5s ease;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* mobile devices */
+@media (max-width:600px){
+    .project{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .project hr{
+        width: 280px;
+    }
+    .project .card{
+        margin-top: 20px;
+    }
 }

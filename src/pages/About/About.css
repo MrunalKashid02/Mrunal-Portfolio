@@ -16,7 +16,7 @@
     align-items: center;
 }
 .about-content h1{
-    color: black;
+    color: #138781;
     font-family: cursive;
     border-bottom:2px solid gray ;
     text-align: center;
@@ -24,4 +24,24 @@
 .about-content p{
     text-align: justify;
     padding: 20px;
+}
+
+
+/* //Dark mode  */
+#dark .about{
+    box-shadow: none;
+    background-color: rgba(0, 0,0, 0.15);
+}
+/* Mobile devices */
+
+@media (max-width:600px) {
+    .about{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .about-content h1{
+        margin-top: 10px;
+    }
 }

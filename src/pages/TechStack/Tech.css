@@ -28,3 +28,15 @@
     transition: 1s;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+/* mobile devices */
+@media (max-width:600px){
+    .techstack{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .techstack hr{
+        width: 280px;
+    }
+}

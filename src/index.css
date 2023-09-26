@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* DARK MODE  */
+
+#dark{
+  background-color: #323232;
+  color: #f4eee0;
+}
+
+/* 4B5D67  423F3E */
+
+/* mobile devices */
+@media (max-width:600px) {
+  .footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+}
