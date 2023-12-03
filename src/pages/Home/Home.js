@@ -24,7 +24,7 @@ const Home = () => {
               <h1>
               <Typewriter
                   options={{
-                    strings: ['FullStack Developer !', 'MERN Stack Developer !','React Native Developer !'],
+                    strings: ['FULL STACK WEB DEVELOPER !', 'MERN STACK DEVELOPER !','BACKEND DEVELOPER !'],
                     autoStart: true,
                     loop: true,
                   }}
@@ -34,7 +34,7 @@ const Home = () => {
               </Fade>
               <Fade bottom>
               <div className='home-buttons'>
-                <a className='btn btn-hire' href="https://api.whatsapp.com/send?phone=1234567890" rel='noreferrer' target='_blank'>Hire Me</a>
+                <a className='btn btn-hire' rel='noreferrer' target='_blank'>Hire Me</a>
                 <a className='btn btn-cv' href={Resume} download="Mrunal_Kashid_Resume.pdf">My Resume</a>
               </div>
               </Fade>

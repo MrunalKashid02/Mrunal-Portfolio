@@ -20,10 +20,16 @@
 .education .vertical-timeline-element-subtitle{
     color:#1e1e2c ;
 }
-
+.education .rev{
+    margin: 5px 5px;
+}
 /* dark mode */
 #dark .education{
     background-color: rgba(0,0,0,0.15);
+}
+#dark .education .rev{
+    color: white;
+    margin: 5px 5px;
 }
 /* mobile devices */
 @media (max-width:600px){

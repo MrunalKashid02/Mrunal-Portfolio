@@ -17,6 +17,7 @@ const Education = () => {
             contentStyle={{ background: 'white', color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2012 - 2018"
+            dateClassName='rev'
             iconStyle={{ background: '#138781', color: '#fff' }}
             icon={<IoSchool />}
         >
@@ -28,6 +29,7 @@ const Education = () => {
             contentStyle={{ background: 'white', color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2018 - 2020"
+            dateClassName='rev'
             iconStyle={{ background: '#138781', color: '#fff' }}
             icon={<IoSchool />}
         >
@@ -39,6 +41,7 @@ const Education = () => {
             contentStyle={{ background: 'white', color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2020 - 2024"
+            dateClassName='rev'
             iconStyle={{ background: '#138781', color: '#fff' }}
             icon={<IoSchool />}
         >

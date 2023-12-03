@@ -17,13 +17,13 @@ const Project = () => {
               <div className='card rounded'>
                 <div className='card-image'>
                   <span className='card-notify-badge'>Full stack</span>
-                  <img src='https://cdn.motocms.com/src/868x580/98900/98973-original-1200.jpg' alt='project1'/>
+                  <img src={require(`../../assests/images/doctor_appointment.jpg`)} alt='project1'/>
                 </div>
                 <div className='card-image-overly m-auto mt-3'>
-                  <span className='card-detail-badge'>Node</span>
-                  <span className='card-detail-badge'>Expressjs</span>
                   <span className='card-detail-badge'>MongoDB</span>
-                  <span className='card-detail-badge'>react</span>
+                  <span className='card-detail-badge'>Expressjs</span>
+                  <span className='card-detail-badge'>ReactJs</span>
+                  <span className='card-detail-badge'>NodeJs</span>
                 </div>
                 <div className='card-body text-center'>
                   <div className='ad-title m-auto'>
@@ -31,11 +31,11 @@ const Project = () => {
                       Doctor Appointment System
                     </h5>
                   </div>
-                  <a  className='ad-btn' href='https://github.com/MrunalKashid02/Doctor-Appoitment-System'>View</a>
+                  <a  className='ad-btn' href='https://doctor-appointment-system-lrx6.onrender.com/login'>View</a>
                 </div>
               </div>
           </div>
-          <div className='col-md-4'>
+          {/* <div className='col-md-4'>
               <div className='card rounded'>
                 <div className='card-image'>
                   <span className='card-notify-badge'>Full stack</span>
@@ -56,7 +56,7 @@ const Project = () => {
                   <a  className='ad-btn' href='#'>View</a>
                 </div>
               </div>
-          </div>
+          </div> */}
         </div>
 
       </div>

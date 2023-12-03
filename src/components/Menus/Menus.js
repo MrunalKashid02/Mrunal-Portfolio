@@ -14,8 +14,8 @@ const Menus = ({toggle}) => {
         <>
           <Zoom>
             <div className='navbar-profile-pic'>
-            <img src='https://media.licdn.com/dms/image/C4E03AQFJZ-L8Wl9O4A/profile-displayphoto-shrink_800_800/0/1654257802838?e=1700092800&v=beta&t=aQ_HRYQwNBUWUShMO3ouKyAmB5EplGgXz2aLnSo8Ru8' 
-            alt='profile pic'
+            <img src='https://media.licdn.com/dms/image/C4E03AQFJZ-L8Wl9O4A/profile-displayphoto-shrink_800_800/0/1654257802838?e=2147483647&v=beta&t=ijwyHY2FosdhkFDnhlBb1yhnY79nuTu4dVhqd6G-81o'
+            alt='profilepic'
             />
             </div>
           </Zoom>
