@@ -37,7 +37,7 @@ const Contact = () => {
       <div className=' contact' id='contact'>
       <h2 className='col-12 mt-3 mb-1 text-center text-uppercase'>Contact me</h2><hr/>
         <div className='card card0 border-0'>
-          <div className='row'>
+          {/* <div className='row'>
             <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12'>
               <div className='card1'>
                 <div className='row border-line'>
@@ -81,7 +81,19 @@ const Contact = () => {
               </div>
             </div>
             </div>
-          </div>
+          </div> */}
+           <div className='row'>
+                    <h6 className='d-flex justify-content-center m-4'>
+                    
+                      <a href='https://www.linkedin.com/in/mrunal-kashid-90898623a/'>
+                        <BsLinkedin  color='blue'size={50} className='ms-2' />
+                      </a>
+                      &nbsp;&nbsp;&nbsp;
+                      <a href='https://github.com/MrunalKashid02'>
+                      <BsGithub  color='black'size={50} className='ms-2 ic'/>
+                      </a>
+                    </h6>
+                  </div>
         </div>
       </div>
       </Pulse>

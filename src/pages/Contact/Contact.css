@@ -1,7 +1,7 @@
 .contact{
-    margin-left: 130px;
-    margin-bottom: 60px;
+    margin: 20px 0px;
     padding-top: 0px;
+    margin-left: 120px;
 }
 .contact hr{
     color: #138781;
@@ -16,8 +16,12 @@
 .card0{
     box-shadow: 0px 4px 8px 0px #757575;
     border-radius: 0px;
-    margin-top: 25px;
+    margin: 25px;
+
+    background-color: rgba(128, 128, 128, 0.101);
 }
+
+
 .card2{
     margin: 0px 40px;
 }
@@ -60,13 +64,17 @@ input:focus, textarea:focus{
     outline: 1px solid #138781 !important;
     outline-width: 0px;
 }
+#dark .card0 .ic{
+    color: white;
 
+}
 /* mobile devices */
 @media (max-width:600px){
     .contact{
         margin:0;
         padding:0;
         margin-top: 30px;
+        width: 100%;
 
     }
     .contact hr{

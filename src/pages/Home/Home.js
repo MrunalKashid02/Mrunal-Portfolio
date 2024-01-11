@@ -2,9 +2,10 @@ import React from 'react'
 import { useTheme } from '../../context/themeContext';
 import './home.css'
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-scroll'
 import {BsMoonFill,BsSunFill} from 'react-icons/bs'
 import Typewriter from 'typewriter-effect';
-import Resume from '../../assests/docs/Mrunal_Kashid_Resume (3).pdf';
+import Resume from '../../assests/docs/Mrunal_Kashid_Resume (9).pdf';
 const Home = () => {
   const [theme, setTheme]=useTheme();
   //To handle theme we have define a theme
@@ -34,8 +35,8 @@ const Home = () => {
               </Fade>
               <Fade bottom>
               <div className='home-buttons'>
-                <a className='btn btn-hire' rel='noreferrer' target='_blank'>Hire Me</a>
-                <a className='btn btn-cv' href={Resume} download="Mrunal_Kashid_Resume.pdf">My Resume</a>
+              <Link to='contact'><a className='btn btn-hire' rel='noreferrer' target='_blank'>Hire Me</a></Link>
+                <a className='btn btn-cv' href={Resume} download="Mrunal_Kashid_Resume (9).pdf">My Resume</a>
               </div>
               </Fade>
             </div>

@@ -1,10 +1,12 @@
 import {AiFillHtml5} from 'react-icons/ai';
 import {DiCss3Full} from 'react-icons/di';
 import {RiReactjsFill} from 'react-icons/ri';
-import {TbBrandMysql} from 'react-icons/tb';
+import {TbBrandMysql,TbBrandCpp} from 'react-icons/tb';
 import {BsBootstrap} from 'react-icons/bs';
 import {IoLogoJavascript} from'react-icons/io';
 import {SiExpress,SiMongodb,SiGithub} from 'react-icons/si';
+import { RiAngularjsFill } from "react-icons/ri";
+import {  } from "react-icons/tb";
 export const TechstackList =[
     {
         _id:1,
@@ -50,6 +52,14 @@ export const TechstackList =[
         _id: 9,
         name: "JavaScript",
         icon: IoLogoJavascript,
-    },
+    },{
+        id:10,
+        name:'AngularJs',
+        icon:RiAngularjsFill,
+    },{
+        id:11,
+        name:'',
+        icon:TbBrandCpp,
+    }
 
 ];

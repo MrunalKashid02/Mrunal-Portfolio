@@ -11,7 +11,7 @@ const About = () => {
                     <img src={require(`../../assests/images/mrunal.jpg`)} alt='profile_pic'/>
                    
                 </div>
-                <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content'>
+                <div className='col-md-12 col-xl-6 col-lg-6 col-xs-12 about-content'>
                     <h1>About Me</h1>
                     <p>
                     Full Stack developer or IT engineer who works both front and

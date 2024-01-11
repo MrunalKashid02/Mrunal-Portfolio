@@ -23,6 +23,7 @@ const Education = () => {
         >
             <h3 className="vertical-timeline-element-title">SSC</h3>
             <h4 className="vertical-timeline-element-subtitle">Residentilal High School, Ahmednagar</h4>
+            <h6 className="vertical-timeline-element-subtitle">(86.20%)</h6>
         </VerticalTimelineElement>  
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -35,6 +36,7 @@ const Education = () => {
         >
             <h3 className="vertical-timeline-element-title">HSC</h3>
             <h4 className="vertical-timeline-element-subtitle">Residentilal Junior College, Ahmednagar</h4>
+            <h6 className="vertical-timeline-element-subtitle">(76.31%)</h6>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"

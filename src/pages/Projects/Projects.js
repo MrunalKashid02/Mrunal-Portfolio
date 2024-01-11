@@ -16,14 +16,11 @@ const Project = () => {
           <div className='col-md-4'>
               <div className='card rounded'>
                 <div className='card-image'>
-                  <span className='card-notify-badge'>Full stack</span>
+                  <span className='card-notify-badge'>MERN stack</span>
                   <img src={require(`../../assests/images/doctor_appointment.jpg`)} alt='project1'/>
                 </div>
-                <div className='card-image-overly m-auto mt-3'>
-                  <span className='card-detail-badge'>MongoDB</span>
-                  <span className='card-detail-badge'>Expressjs</span>
-                  <span className='card-detail-badge'>ReactJs</span>
-                  <span className='card-detail-badge'>NodeJs</span>
+                <div className='card-image-overly m-auto mt-2'>
+                  
                 </div>
                 <div className='card-body text-center'>
                   <div className='ad-title m-auto'>
