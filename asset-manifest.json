@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Mrunal-Portfolio/static/css/main.6e44cd19.css",
+    "main.js": "/Mrunal-Portfolio/static/js/main.7325f8c6.js",
+    "static/js/787.d5fa4d18.chunk.js": "/Mrunal-Portfolio/static/js/787.d5fa4d18.chunk.js",
+    "static/media/mrunal.jpg": "/Mrunal-Portfolio/static/media/mrunal.c8c4bae911a4a0430f86.jpg",
+    "static/media/doctor_appointment.jpg": "/Mrunal-Portfolio/static/media/doctor_appointment.54ce7ac50b3e29b6b224.jpg",
+    "static/media/Mrunal_Kashid_Resume (9).pdf": "/Mrunal-Portfolio/static/media/Mrunal_Kashid_Resume (9).96c9f5431c0d6fa81c4b.pdf",
+    "index.html": "/Mrunal-Portfolio/index.html",
+    "main.6e44cd19.css.map": "/Mrunal-Portfolio/static/css/main.6e44cd19.css.map",
+    "main.7325f8c6.js.map": "/Mrunal-Portfolio/static/js/main.7325f8c6.js.map",
+    "787.d5fa4d18.chunk.js.map": "/Mrunal-Portfolio/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e44cd19.css",
+    "static/js/main.7325f8c6.js"
+  ]
+}
