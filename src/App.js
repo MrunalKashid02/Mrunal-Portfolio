@@ -9,7 +9,7 @@ import { useTheme } from "./context/themeContext";
 import MobileNav from "./components/MobileNav/MobileNav";
 //import WorkExp from "./pages/workExperience/WorkExp"
 import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.min.css';
 
 function App() {
   const [theme]=useTheme();
@@ -24,7 +24,6 @@ function App() {
           <Education />
           <Tech/>
           <Projects/>
-        
           <Contact />
         </div>
         <div className="footer pb-3 ms-3">

@@ -2,35 +2,34 @@ import React ,{useState}from 'react'
 import './Contact.css'
 import {BsLinkedin,BsGithub} from 'react-icons/bs'
 import Pulse from 'react-reveal/Pulse';
-import {  toast } from 'react-toastify';
 import axios from 'axios'
 
 
 const Contact = () => {
-  const [subject, setsubject]=useState("");
-  const [email, setemail]=useState("");
-  const [msg, setmsg]=useState("");
-  //handle submit button
-  const handleSubmit=async (e)=>{
-    e.preventDefault();
-    try {
-      if(!subject || !email || !msg){
-        toast.error('Please Provide all Fields');
-      }
-      const res=await axios.post('http://localhost:8080/api/v1/portfolio/sendEmail',{email,subject,msg});
-      if(res.data.success){
-        toast.success(res.data.message)
-        setemail("");
-        setsubject("");
-        setmsg("");
-      }else{
-        toast.error(res.data.message);
-      }
+  // const [subject, setsubject]=useState("");
+  // const [email, setemail]=useState("");
+  // const [msg, setmsg]=useState("");
+  // //handle submit button
+  // const handleSubmit=async (e)=>{
+  //   e.preventDefault();
+  //   try {
+  //     if(!subject || !email || !msg){
+  //       //toast.error('Please Provide all Fields');
+  //     }
+  //     const res=await axios.post('http://localhost:8080/api/v1/portfolio/sendEmail',{email,subject,msg});
+  //     if(res.data.success){
+  //       // toast.success(res.data.message)
+  //       // setemail("");
+  //       // setsubject("");
+  //       // setmsg("");
+  //     }else{
+  //      // toast.error(res.data.message);
+  //     }
 
-    } catch (error) {
-      console.log(error);
-    }
-  }
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // }
   return (
     <>
       <Pulse>
